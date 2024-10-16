@@ -1,0 +1,96 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 20px;
+  background-image: url('https://images.pexels.com/photos/440731/pexels-photo-440731.jpeg?cs=srgb&dl=pexels-akos-szabo-145938-440731.jpg&fm=jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.app-container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #e1e1e1;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.app-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.register-land, .available-lands {
+  margin: 20px 0;
+  padding: 10px;
+  border: 1px solid #e1e1e1;
+  border-radius: 5px;
+  background-color: #fafafa;
+  background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white */
+}
+
+h2 {
+  color: #e38b29;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px;
+  background-color: #f1a661;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #e38b29;
+}
+
+.land-item {
+  padding: 10px;
+  border: 1px solid #e1e1e1;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.for-sale {
+  border-left: 5px solid #f1a661;
+}
+
+.buy-button {
+  margin-top: 10px;
+  padding: 5px;
+  background-color: #28a745;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+}
+
+.buy-button:hover {
+  background-color: #218838;
+}
+
+.land-image {
+  width: 200px; /* Adjust the size as needed */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 4px;
+  margin-right: 10px; /* Space between image and text */
+}
